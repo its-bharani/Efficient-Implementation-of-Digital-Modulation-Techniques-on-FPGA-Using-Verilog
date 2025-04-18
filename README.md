@@ -43,10 +43,10 @@ The implementation leverages Verilog HDL and FPGA tools like Vivado to achieve o
 ## Binary Frequency Shift Keying (BFSK)
 
 ### Code
-[View BFSK Code](./path/to/bfsk_code.v)
+[View BFSK Code](./bfsk_code.v)
 
 ### Testbench
-[View BFSK Testbench](./path/to/bfsk_testbench.v)
+[View BFSK Testbench](./bfsk_testbench.v)
 
 ### RTL Schematic
 ![BFSK RTL Schematic](./rtl_bfsk.png)
@@ -59,10 +59,10 @@ The implementation leverages Verilog HDL and FPGA tools like Vivado to achieve o
 ## Binary Phase Shift Keying (BPSK)
 
 ### Code
-[View BPSK Code](./path/to/bpsk_code.v)
+[View BPSK Code](./bpsk_code.v)
 
 ### Testbench
-[View BPSK Testbench](./path/to/bpsk_testbench.v)
+[View BPSK Testbench](./bpsk_testbench.v)
 
 ### RTL Schematic
 ![BPSK RTL Schematic](./rtl_bpsk.png)
@@ -83,6 +83,3 @@ This implementation provides a foundation for future enhancements, including:
 - Support for higher-order modulation schemes.
 - Enhanced scalability for integration with complex systems.
 
----
-
-Feel free to contribute, report issues, or suggest improvements!
