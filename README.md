@@ -26,11 +26,23 @@ The implementation leverages Verilog HDL and FPGA tools like Vivado to achieve o
 
 ## Binary Amplitude Shift Keying (BASK)
 
+### Formula
+\[ S(t) = 
+\begin{cases} 
+A \cdot \cos(2\pi f_c t), & \text{if } m(t) = 1 \\
+0, & \text{if } m(t) = 0
+\end{cases}
+\]
+Where:
+- \( A \): Amplitude of the carrier wave
+- \( f_c \): Frequency of the carrier wave
+- \( m(t) \): Message signal (binary)
+
 ### Code
-[View BASK Code](./path/to/bask_code.v)
+[View BASK Code](./path/to/bask.v)
 
 ### Testbench
-[View BASK Testbench](./path/to/bask_testbench.v)
+[View BASK Testbench](./path/to/bask_tb.v)
 
 ### RTL Schematic
 ![BASK RTL Schematic](./rtl_bask.png)
