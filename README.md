@@ -27,10 +27,10 @@ The implementation leverages Verilog HDL and FPGA tools like Vivado to achieve o
 ## Binary Amplitude Shift Keying (BASK)
 
 ### Code
-[View BASK Code](./codes/bask.v)
+[View BASK Code](./bask.v)
 
 ### Testbench
-[View BASK Testbench](./path/to/bask_tb.v)
+[View BASK Testbench](./bask_tb.v)
 
 ### RTL Schematic
 ![BASK RTL Schematic](./rtl_bask.png)
